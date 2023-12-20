@@ -1,0 +1,22 @@
+.DiaryList .searchBar {
+    margin-bottom: 20px;
+    width: 450px;
+    margin: 0 auto; 
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.DiaryList .searchBar:focus {
+    border-bottom: 1px solid #0095f6;
+}
+.search-container {
+    width: 500px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
