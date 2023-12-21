@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #262626;
+  padding-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: #262626;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #0095f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input[type="file"] {
+  border: 1px solid #dbdbdb;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.diary-item {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.diary-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.diary-date {
+  font-size: 10pt;
+  color: #8e8e8e;
+  margin-bottom: 10px;
+}
+
+.diary-content {
+  margin-bottom: 15px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  color: #c7c7c7;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #ed4956;
+}
